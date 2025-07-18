@@ -1,0 +1,26 @@
+#form-field-zipcode.cep-invalido {
+    border: 2px solid #e63946;
+}
+
+.cep-erro {
+    position: relative;
+    background-color: #ffe5e5;
+    color: #e63946;
+    padding: 8px 12px;
+    margin-top: 6px;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: Arial, sans-serif;
+}
+
+.cep-erro::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 20px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent #ffe5e5 transparent;
+}
+
+
